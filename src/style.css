@@ -18,7 +18,7 @@
   }
 
   h2 {
-    @apply justify-start text-neutral-800 text-5xl font-bold font-montserrat leading-[52.80px];
+    @apply justify-start text-neutral-800 text-5xl font-bold font-montserrat leading-[52.80px] mb-5;
   }
 
   h3 {
@@ -26,6 +26,10 @@
   }
 
   h4 {
+    @apply text-6xl font-bold font-montserrat leading-24 text-pink text-center;
+  }
+
+  h5 {
     @apply self-stretch justify-start text-stone-900 text-xl font-normal font-montserrat leading-8;
   }
 
@@ -44,6 +48,10 @@
   }
 
   .nav-item {
-    @apply mr-5 text-lg font-bold font-montserrat leading-6;
+    @apply mr-5 text-lg font-bold font-montserrat leading-6 hover:underline hover:underline-offset-8;
+  }
+
+  .aboutMe-p {
+    @apply text-white text-lg font-bold font-montserrat leading-6 text-center;
   }
 }

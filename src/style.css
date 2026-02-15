@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-montserrat : "Montserrat", sans-serif;
+
+  --color-red: #FC3314;
+  --color-pink: #FFD4D0;
+  --color-dark: #1F1F1F;
+  --color-dark-grey: #8D8D8D;
+  --color-grey-medium: #E1E1E1;
+  --color-grey: #F7F7F7;
+}
+
+@layer base {
+  h1 {
+    @apply justify-start text-neutral-800 text-6xl font-bold font-montserrat leading-[70.40px];
+  }
+
+  h2 {
+    @apply justify-start text-neutral-800 text-5xl font-bold font-montserrat leading-[52.80px];
+  }
+
+  h3 {
+    @apply justify-start text-neutral-800 text-4xl font-bold font-montserrat leading-10;
+  }
+
+  p {
+    @apply self-stretch justify-start text-stone-900 text-base font-normal font-montserrat leading-6;
+  }
+}

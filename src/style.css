@@ -62,4 +62,8 @@
   .porto-item {
     @apply w-full min-h-50;
   }
+
+  .input-form {
+    @apply w-full py-1 px-3 bg-white my-2
+  }
 }

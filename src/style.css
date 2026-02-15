@@ -18,7 +18,7 @@
   }
 
   h2 {
-    @apply justify-start text-neutral-800 text-5xl font-bold font-montserrat leading-[52.80px] mb-5;
+    @apply justify-start text-neutral-800 text-5xl font-bold font-montserrat leading-[52.80px] mb-5 text-center;
   }
 
   h3 {
@@ -53,5 +53,13 @@
 
   .aboutMe-p {
     @apply text-white text-lg font-bold font-montserrat leading-6 text-center;
+  }
+
+  .container {
+    @apply max-w-400 mx-auto w-full;
+  }
+
+  .porto-item {
+    @apply w-full min-h-50;
   }
 }
